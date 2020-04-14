@@ -1,4 +1,4 @@
 limecore: Core Configuration
-=================
+============================
 
 Configuration

@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="limecore-core-configuration",
-    version="0.0.1",
+    version="0.1.0",
 
     description="limecore: Core Configuration",
     long_description=long_description,
@@ -27,7 +27,7 @@ setuptools.setup(
     
     package_dir={'': 'src'},
     packages=[
-        'limecore.logging',],
+        'limecore.core.configuration',],
     
     install_requires=required,
     python_requires='>=3.7',
